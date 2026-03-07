@@ -16,7 +16,7 @@ date_default_timezone_set('Asia/Tashkent');
 // ============================================================
 //  ⚙️  ASOSIY SOZLAMALAR — faqat shu joyni o'zgartiring
 // ============================================================
-define('BOT_TOKEN',  "8075240571:AAE7bqOPq1qVY8z_lP-IwiFl_9lP_Us92lk");
+define('BOT_TOKEN',  "TOKEN");
 define('OWNER_ID',   "5907118746");
 define('BASE_DIR',   __DIR__);          // barcha fayllar shu joyda
 // ============================================================
