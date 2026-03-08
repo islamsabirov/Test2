@@ -42,8 +42,8 @@ loadEnv(__DIR__ . '/.env');
 //  BOT_TOKEN = sizning_token
 //  OWNER_ID  = sizning_telegram_id
 // ============================================================
-define('BOT_TOKEN', getenv('BOT_TOKEN') ?: '8075240571:AAF3c6Pj_mCHfuEf65cpkT6TfVer9EPUNSM');
-define('OWNER_ID',  getenv('OWNER_ID')  ?: '5907118746');
+define('BOT_TOKEN', getenv('8075240571:AAE7bqOPq1qVY8z_lP-IwiFl_9lP_Us92lk') ?: '8075240571:AAF3c6Pj_mCHfuEf65cpkT6TfVer9EPUNSM');
+define('OWNER_ID',  getenv('5907118746')  ?: '5907118746');
 define('BASE_DIR',  __DIR__);
 
 // ============================================================
