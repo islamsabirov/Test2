@@ -43,7 +43,7 @@ loadEnv(__DIR__ . '/.env');
 //  OWNER_ID  = sizning_telegram_id
 // ============================================================
 define('BOT_TOKEN', getenv('BOT_TOKEN') ?: 'BOT_TOKEN');
-define('OWNER_ID',  getenv('5907118746')  ?: '5907118746');
+define('OWNER_ID',  getenv('OWNER_ID')  ?: 'OWNER_ID');
 define('BASE_DIR',  __DIR__);
 
 // ============================================================
