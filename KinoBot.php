@@ -44,6 +44,7 @@ loadEnv(__DIR__ . '/.env');
 // ============================================================
 define('BOT_TOKEN', getenv('BOT_TOKEN') ?: 'BOT_TOKEN');
 define('OWNER_ID',  getenv('OWNER_ID')  ?: '5907118746');
+define('BOT_USERNAME', getenv('BOT_USERNAME') ?: 'Kinolar_Uz_2026bot');
 define('BASE_DIR',  __DIR__);
 
 // ============================================================
