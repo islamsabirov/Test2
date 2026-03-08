@@ -849,7 +849,7 @@ if (isset($update->message)) {
 
     if ($text === "📥 Kino Yuklash" && $isAdm) {
         bot('sendMessage', ['chat_id' => $cid, 'text' => "<b>⁉️ Kino yuklash usuli:</b>", 'parse_mode' => 'html',
-            'reply_markup' => json_encode(['inline_keyboard' => [[['text' => "✅ Rasm + Video", 'callback_data' => "oddiyk"]]]]])]);
+            'reply_markup' => json_encode(['inline_keyboard' => [[['text' => "✅ Rasm + Video", 'callback_data' => "oddiyk"]]]])
         http_response_code(200); exit();
     }
 
